@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+	<div id="background">
+		<div class="center">
+			Calculator<span class="button close">X</span>
+		</div>
+		<table id="place">
+			<tr>
+				<th colspan="10">0</th>
+			</tr>
+			<tr>
+				<td colspan="10" class="emsptd">
+					<div>
+						0000 &emsp; 0000 &emsp; 0000 &emsp; 0000 &emsp; 0000 &emsp; 0000 &emsp; 0000 &emsp; 0000
+					</div>
+					<div>
+						 63 &emsp;
+					</div>
+					<div>
+						0000 &emsp; 0000 &emsp; 0000 &emsp; 0000 &emsp; 0000 &emsp; 0000 &emsp; 0000 &emsp; 0000
+					</div>
+				</td>
+			</tr>
+				
+			<tr>
+				<td colspan="2" rowspan="3" class="radiobutton">
+					<form>
+						<div><input type="radio" id="hex" name="calcu" value="hex" checked><label for="hex"> Hex</label></div>
+					  	<div><input type="radio" id="dec" name="calcu" value="dec"><label for="dec"> Dec</label></div>
+					  	<div><input type="radio" id="oct" name="calcu" value="oct" checked><label for="oct"> Oct</label></div>
+					  	<div><input type="radio" id="bin" name="calcu" value="bin"><label for="bin"> Bin</label></div>
+					</form> 
+				</td>
+				<td></td>
+				<td>Mod</td>
+				<td>A</td>
+				<td>MC</td>
+				<td>MR</td>
+				<td>MS</td>
+				<td>M+</td>
+				<td>M-</td>
+			</tr>
+			<tr>
+				<td class="hov">(</td>
+				<td>)</td>
+				<td>B</td>
+				<td>-</td>
+				<td>CE</td>
+				<td>C</td>
+				<td>+/-</td>
+				<td>sqrt</td>
+			</tr>
+			<tr>
+				<td class="hov">RoL</td>
+				<td>RoR</td>
+				<td>C</td>
+				<td class="number">7</td>
+				<td class="number">8</td>
+				<td class="number">9</td>
+				<td>/</td>
+				<td>%</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="3" class="radiobutton">
+					<form>
+					  <input type="radio" name="calcu"> Qword
+					  <br>
+					  <input type="radio" name="calcu"> Dword
+					  <br>
+					  <input type="radio" name="calcu"> Word
+					  <br>
+					  <input type="radio" name="calcu"> Byte
+					</form> 
+				</td>
+				<td>Or</td>
+				<td>Xor</td>
+				<td>D</td>
+				<td class="number">4</td>
+				<td class="number">5</td>
+				<td class="number">6</td>
+				<td>*</td>
+				<td>1/x</td>
+			</tr>
+
+			<tr>
+				<td class="hov">Lsh</td>
+				<td>Rsh</td>
+				<td>E</td>
+				<td class="number">1</td>
+				<td class="number">2</td>
+				<td class="number">3</td>
+				<td>-</td>
+				<td rowspan="2" class="number">=</td>
+			</tr>
+			<tr>
+				<td class="hov">Not</td>
+				<td>And</td>
+				<td>F</td>
+				<td colspan="2" class="number">0</td>
+				<td>,</td>
+				<td>+</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>
+
+	nav ul ul {
+		display: none;
+	}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+	nav ul {
+		background-color: red;
+		display: inline-table;
+		padding: 0px 20px;
+		list-style-type: none;
+		position: relative;
+	}
+
+	nav ul:after {
+	content: ""; clear: both; display: block;
+	}
+
+	nav ul li {
+		float: left; 
+	}
+
+	nav ul li a {
+		display: block;
+		color: white;
+		text-decoration: none;
+		padding: 25px 40px;
+	}
+
+	nav ul li:hover {
+		background: blue;
+	}
+
+	nav ul ul li:hover a {
+		background: green;
+	}
+
+	nav ul ul {
+		background: #5f6975; 
+		border-radius: 0px;
+		padding: 0;
+		position: absolute;
+		top: 100%;
+	}
+
+	nav ul ul li {
+		float: none;
+		position: relative;
+	}
+
+	nav ul ul ul {
+		position: absolute;
+		top: 0px;
+		left: 100%; 
+	}
+	
+</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Tutorials</a>
+				<ul>
+					<li><a href="#">Photoshop</a></li>
+					<li><a href="#">Ilustrator</a></li>
+					<li><a href="#">Web design</a>
+						<ul>
+							<li><a href="#">Html</a></li>
+							<li><a href="#">Css</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</body>
+</html>

@@ -1,0 +1,192 @@
+body {
+	background-image: url("bg-pattern.jpg");
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#menu { 
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#menu li {
+	background-image: url("bg-navigation.png");
+	display: inline-block;
+	font: bold 20px Arial;
+	height: 50px;
+	line-height: 50px;
+	width: 115px;
+	text-align: center;
+	border-right: 1px solid #6EAF85;
+	margin-right: -6px;
+}
+
+#menu li:last-child {
+	border-right: none;
+}
+
+#menu li:hover a {
+	height: 50px;
+	background-color: #897c73;
+	display: block;
+	color: yellow;
+}
+
+#wrapper {
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 800px;
+}
+
+#img {
+	display: block;
+	width: 800px;
+	height: 400px;
+	background-image: url("sea-sound.jpg");
+	background-size: cover;
+}
+
+#imgRooms {
+	background-image: url("rooms.png");
+}
+
+#imgDiveSite {
+	background-image: url("dive-site.png");
+}
+
+#imgFood {
+	background-image: url("food.png");
+}
+
+.img {
+	background-repeat: no-repeat;
+	height: 169px;
+}
+
+#floatleft {
+	width: 63%;
+	float: left;
+}
+
+#floatright {
+	width: 36%;
+	float: right;
+}
+
+#foot {
+	color: #594334;
+	text-transform: uppercase;
+	clear: both;
+}
+
+#foot > div {
+	float: left;
+	background-color: #ac9e94;
+	height: 48px;
+	width: 795px;
+}
+ 
+#menufoot > li {
+	display: inline-block;
+	font-size: 15px;
+	padding-right: 10px;
+}
+
+#menufoot {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	line-height: 33px;
+	margin: 0;
+}
+
+#sprite {
+	float: right;
+	display: inline-block;
+	line-height: 26px;
+	margin: 12px 16px 0;
+}
+
+#sprite a {
+	background: url("icons.png") no-repeat;
+	display: inline-block;
+	height: 23px;
+	width: 23px;
+	margin-left: 10px;
+}
+
+#sprite a.pin {
+	background-position: 0 -33px;
+}
+
+#sprite a.facebook {
+	background-position: 0 -98px;
+}
+
+#sprite a.fly {
+	background-position: 0 -164px;
+	padding-right: 5px;
+}
+
+#sprite a.google {
+	background-position: 0 -230px;
+}
+
+#sprite a.pin:hover {
+	background-position: 0 0px;
+}
+
+#sprite a.facebook:hover {
+	background-position: 0 -65px;
+}
+
+#sprite a.fly:hover {
+	background-position: 0 -131px;
+}
+
+#sprite a.google:hover {
+	background-position: 0 -197px;
+}
+
+#block p {
+	font-size: 13px;
+	text-align: center;
+}
+`
+.space {
+	height: 20px;
+}
+
+.latestblog {
+	padding: 20px;
+	background-color: white;
+}
+
+.latestblog:last-child {
+    margin-top: 18px;
+}
+
+.title {
+	font-size: 120%;
+}
+
+.dotted {
+	border-bottom: 1px dotted;
+	padding-bottom: 5px;
+
+}
+
+.blog-item-title {
+	font-size: 120%;
+	padding-top: 5px;
+}
+
+.date {
+	font-size: 90%;
+}
