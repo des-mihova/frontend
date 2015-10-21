@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>
+	
+	body {
+		background-color: black;
+		margin: 0;
+	}
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+
+	#background {
+		margin: 0 auto;
+		background-color: white;
+		width: 900px;
+	}
+
+	header {
+		background-image: url("headerBackground.jpg");
+		width: 900px;
+		height: 270px;
+		position: relative;
+	}
+
+	header span {
+		position: absolute;
+		top: 200px;
+		left: 500px;
+		color: white; 
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	div ul {
+		display: block;
+		background-color: #cac7c7;
+		border-bottom: 2px solid #e2e2e2;
+		margin: 0;
+		padding-left: 4px;
+
+	}
+	
+	div ul li {
+		display: inline-block;
+		background-color: #cac7c7;
+		width: 120px;
+		height: 40px;
+		text-align: center;
+		margin-left:-4px;
+		border-left: 2px solid #e2e2e2;
+	}
+
+	div ul li:last-child {
+		border-right: 2px solid #e2e2e2;
+	}
+
+	div ul li a {
+		text-decoration: none;
+		color: #545151;
+		font-weight: bold;
+		line-height: 42px;
+		text-align: center;
+	}
+
+	div ul li:hover a {
+		background-color: #787878;
+		color: white;
+		display: block;
+		height: 40px;
+	}
+
+	header + div {
+		border-bottom: 2px solid #cac7c7;
+	}
+
+	.border {
+		border: 1px solid #cac7c7;
+		border-radius: 10px;
+		display: inline-block;
+	}
+
+	.green {
+		color: #80b127;
+	}
+	
+	.content .border {
+		margin: 25px 25px 0px 25px;
+		padding: 10px;
+	}
+
+	span {
+		font-weight: bold;
+	}
+	
+	#floatleft {
+		float: left;
+		width: 30%;
+	}
+
+	#img5 {
+		background-image: url("0005.jpg");
+	}
+
+	#img4 {
+		background-image: url("0004.jpg");
+	}
+
+	#img3 {
+		background-image: url("0003.jpg");
+	}
+
+	.img {
+		background-repeat: no-repeat;
+		float: left;
+		height: 140px;
+		width: 140px;
+		margin-right: 20px;
+	}
+	
+	div#floatright div h5 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.border-grey {
+		background-color: #dedede;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	a.green {
+		text-decoration: underline;
+	}
+
+	div.border-grey p {
+		margin: 0px;
+	}
+
+	div#messages p {
+		margin: 0px;
+	}
+
+	h4 {
+		margin-bottom: 0px;
+	}
+
+	footer {
+		background-color: #80b127;
+		margin-top: 25px;
+		width: 900px;
+		height: 80px;
+		text-align: center;
+		line-height: 45px;
+		border-top: 2px solid #caee87;
+	}
+
+	.is-right {
+		float: right;
+		width: 22%;
+		padding: 20px;
+	}
+
+	.content {
+		width: 65%;
+	}
+
+</style>
+</head>
+<body>
+	<div id="background">
+		<header>
+			<span>In the twilight of one's life</span>
+		</header>
+		<div>
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">BLOG</a></li>
+				<li><a href="#">GALLERY</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</div>
+		<div id="main">
+			<div class="is-right">
+				<div class="border-grey">
+					<h2 class="green">NEWS</h2>
+					<div>
+						<h4>August 2, 2009</h4>
+						<p>Aliquam eget varius argu.</p>
+						<a href="#" class="green">see more...</a>
+					</div>
+					<div>
+						<h4>August 1, 2009</h4>
+						<p>Aliquam eget varius argu.</p>
+						<a href="#" class="green">see more...</a>
+					</div>
+					<div>
+						<h4>July 28, 2009</h4>
+						<p>Aliquam eget varius argu.</p>
+						<a href="#" class="green">see more...</a>
+					</div>
+				</div>
+				<div class=" border" id="messages">
+					<h2 class="green">MESSAGES</h2>
+					<h4>August 2, 2009</h4>
+					<div>Fusce vel massa nec tortor tempor tincidunt. Nunc nec purus erat. Nam pretium sollicitudin neque, ac laoreet velit cursur in. Maecenas iltrices, nulla id vulputate placerat, elit nulla faucibus arcu, in pellentexque purus ante eges sem, Maecenas non ipsum quis imsum nterdum congue at non sem. Cras elelfed porus id sapien pharetra, vel daucibus resus tincidunt. Curabitur eleifend lorem et elit convallis Autor:<nav>SoftUni</nav></div>
+					<a href="#" class="green">see all testimonials...</a>
+				</div>
+			</div>
+			<div class="content">
+				<div class="border">
+					<h2 class="green">WELCOME TO HOME PAGE</h2>
+					<div><span>Lorem ipsum dolor s it amet, consentetur adipiscing elit. Quisque eros nisl, olutpat vel a ugue pellentesque, consectetur mollis erat</span>.Quisque dapibus eget massa vitae porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetue ridiculus mus. Nullam vulputate est eget ornare convallis. Aenean faucibus rhoncus est sit amet feugiat. Sed convallis porttitor lectus, eleifend adipiscing libero tincidunt non. Nunc nec varius enim, nec egestas nulla. In dacillisis tellus c malesiada imperdiet. Nulla nec metus up sapien feugiat tristique ac ut mauris.</div>
+				</div>
+				<div class="border">
+					<h2 class="green">Our Free Products</h2>
+					
+					<div>
+						<div>
+							<div id="img5" class="img"></div>
+								<h5 id="margin-top">Just try to find me</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipicing elit. Quisque eros nisl, volutpat vel augue pellentesque, consectetur mollis erat. Quisque dapibus eget massa vitae porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur riculus mus. Nullam vulputate est eget ornare convallis.</p>
+						</div>
+						<div>
+							<div id="img4" class="img"></div>
+							<h5>Meeting Place</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipicing elit. Quisque eros nisl, volutpat vel augue pellentesque, consectetur mollis erat. Quisque dapibus eget massa vitae porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur riculus mus. Nullam vulputate est eget ornare convallis.</p>
+						</div>
+						<div>
+							<div id="img3" class="img"></div>
+							<h5>Skate Show</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipicing elit. Quisque eros nisl, volutpat vel augue pellentesque, consectetur mollis erat. Quisque dapibus eget massa vitae porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur riculus mus. Nullam vulputate est eget ornare convallis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>	
+		<div>
+			<footer>
+				<p>In the twillight of one's life Copyright @ 2 August 2009 / XTHML / CSS</p>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
