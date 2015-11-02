@@ -62,8 +62,7 @@ p {
 #wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
-	position: relative;
-	top: -500px;
+	margin-top: -500px;
 }
 
 nav {
@@ -102,6 +101,7 @@ li a:hover {
 	width: 1000px;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 #bottom-img {
@@ -114,14 +114,14 @@ li a:hover {
 
 #absolute-headlines {
 	position: absolute;
-	top: 205px;
-	left: 330px;
+	top: 180px;
+	left: 385px;
 }
 
 #absolute-hearcut {
 	position: absolute;
-	top: 720px;
-	left: 390px;
+	top: 20px;
+	left: 400px;
 }
 
 #women {
@@ -166,6 +166,7 @@ div.img:after {
 	height: 100px;
 	background-color: #171717;
 	margin-top: 30px;
+	position: relative;
 }
 
 .spa {
