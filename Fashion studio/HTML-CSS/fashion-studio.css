@@ -200,12 +200,42 @@ div.img:after {
 }
 
 #butons {
+	display: inline-block;
+	line-height: 26px;
+}
+
+#butons a {
 	background-image: url("butons.png");
-	background-size: 100%;
-	width: 80%;
-	height: 63px;
-	margin-left: 103px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 310px;
+	height: 85px;
+	margin-left: 20px;
 	margin-top: 30px;
+}
+
+#tweet {
+	background-position: 0 0px;
+}
+
+#facebook {
+	background-position: 0 -97px;
+}
+
+#google {
+	background-position: 0 -195px;
+}
+
+#tweet:hover {
+	background-position: 0 -288px;
+}
+
+#facebook:hover {
+	background-position: 0 -384px;
+}
+
+#google:hover {
+	background-position: 0 -480px;
 }
 
 #portfolio1 {
@@ -265,6 +295,7 @@ footer {
 	height: 45px;
 	background-color: #a40000;
 	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 footer p {
