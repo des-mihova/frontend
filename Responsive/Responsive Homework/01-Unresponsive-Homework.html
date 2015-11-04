@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+<style>
+
+    body {
+        background-color: #6698ff;
+    }
+    
+    #wrapper {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    h1 > a {
+        text-decoration: none;
+    }
+    
+    a img {
+        max-width: 100%;
+    }
+
+    span {
+        color: white;
+    }
+    
+    ul {
+        float: right;
+        margin-top: -27px;
+        margin-bottom: 0px;
+    }
+
+    nav {
+        display: block;
+        border: 1px solid black;
+        margin-bottom: 26px;
+    }
+
+    nav ul li {
+        float: left;
+        list-style-type: none;
+        background-color: #ffffff;
+        border: 1px solid black;
+        margin: 10px;
+        padding: 5px 10px;
+    }
+
+    nav ul:after {
+        content: ""; clear: both; display: block;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    section {
+      max-width: 690px;
+      float: left;
+      margin-bottom: 10px;
+    }
+
+    section:after {
+        content: ""; clear: both; display: block;
+    }
+
+    article {
+        border: 1px solid black;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #e0eafe;
+    }
+
+    .news {
+        float: right;
+        border: 1px solid black;
+        background-color: #e0eafe;
+        max-width: 249px;
+        margin-top: 10px;
+    }
+
+    .news:after {
+        content: ""; clear: both; 
+    }
+
+    aside div ul {
+        padding: 32px 0px 10px;
+    }
+
+    .block {
+        list-style: none;
+        padding: 10px;
+    }
+
+    .block a {
+        text-decoration: none;
+        color: black;
+        list-style: none;
+    }
+
+    footer {
+        clear: left;
+        border: 1px solid black;
+        background-color: #e0eafe;
+        padding: 10px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    h2 {
+        margin: 0px;
+    }
+
+    @media screen and (max-width: 980px) {
+        .news {
+            width: 100%;
+            max-width: 690px;
+            float: left;
+            margin: 0px 0px 10px;
+        }
+    }
+
+    @media only screen and (max-width : 780px) {
+        .news {
+            width: 100%;
+            margin: 0px 0px 10px;
+        }
+
+        .block {
+            width: 600px;
+        }
+    }
+
+    @media only screen and (max-width : 640px) {
+
+        nav ul li {
+            float: none;
+            width: 290px;
+            text-align: center;
+        }
+
+        .block {
+            width: 90%;
+            text-align: center;
+        }
+
+    }
+
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>
+                <a href="#">
+                    <img src="softuni.png" alt="logo" />
+                    <span>Responsive Homework</span>
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Nav item 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Nav item 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Nav item 3</a>
+                    </li>
+                    <li>
+                        <a href="#">Nav item 4</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+          <section>
+            <article>
+                <header>
+                    <h1>You can only be young once. But you can always be immature.</h1>
+                </header>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel massa
+                        nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Morbi posuere massa pretium neque condimentum quis posuere
+                        libero ullamcorper. Praesent viverra sagittis nisi vel mattis.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <header>
+                    <h1>Smile today, tomorrow could be worse.</h1>
+                </header>
+                <div>
+                    <p>
+                        Nulla adipiscing, ipsum malesuada sagittis euismod, nulla felis faucibus
+                        diam, nec tempus mauris leo at est. Nunc ligula tortor, tincidunt a porta
+                        sed, dignissim a neque.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <header>
+                    <h1>If you don't succeed at first, hide all evidence that you tried.</h1>
+                </header>
+                <div>
+                    <p>
+                        Fusce augue mauris,
+                        adipiscing quis porttitor ut, euismod at diam. Donec eu dolor nibh. Proin
+                        sit amet fermentum nunc. Proin aliquam, mauris in euismod molestie, lorem
+                        risus commodo urna, et faucibus libero turpis quis libero.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <header>
+                    <h1>If you want to catch a squirrel just climb a tree and act like a nut.</h1>
+                </header>
+                <div>
+                    <p>
+                        Phasellus non lacus sit amet dolor blandit consequat sit amet id felis.
+                        Nunc eu massa ac lacus posuere ultricies. Pellentesque aliquam nunc ut
+                        enim feugiat viverra. Pellentesque habitant morbi tristique senectus et
+                        netus et malesuada fames ac turpis egestas.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <aside class="news">
+            <div>
+                <ul>
+                    <li class="block">
+                        <a href="#">You can only be young once. But you can always be immature.</a>
+                    </li>
+                    <li class="block">
+                        <a href="#">Smile today, tomorrow could be worse.</a>
+                    </li>
+                    <li class="block">
+                        <a href="#">If you don't succeed at first, hide all evidence that you tried.</a>
+                    </li>
+                    <li class="block">
+                        <a href="#">If you want to catch a squirrel just climb a tree and act like a nut.</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <footer>
+            <h2>
+                Software University - <a href="http://softuni.bg">softuni.bg</a>
+            </h2>
+        </footer>
+    </div>
+</body>
+</html>
